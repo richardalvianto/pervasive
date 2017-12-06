@@ -28,7 +28,7 @@
 
 // Update these with values suitable for your network.
 
-const char* ssid = "Miskin";
+const char* ssid = "BabiTelorAsin";
 const char* password = "1234567890";
 const char* mqtt_server = "94.177.202.105";
 int local = -1;
