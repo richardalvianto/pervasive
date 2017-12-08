@@ -93,7 +93,7 @@ void callback(char* topic, byte* payload, unsigned int length) {
   else if((char)payload[0] == 'x' && (char)payload[1] == 'x' && (char)payload[3] == '0'){
     digitalWrite(BUILTIN_LED, HIGH);  // Turn the LED off by making the voltage HIGH
     digitalWrite(lampu,LOW);
-  } else if((char)payload[0] == '0' && (char)payload[1] == '1'){
+  } else if((char)payload[0] == '0' && (char)payload[1] == '2'){
     Serial.print("LocalMsg = ");
      for (int i = 2; i < length; i++) {
       localMsg[i-2] = payload[i];
